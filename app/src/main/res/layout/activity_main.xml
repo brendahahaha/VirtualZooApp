@@ -1,0 +1,139 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity"
+    android:orientation="vertical"
+    android:background="#ffe2c7">
+
+    <ImageView
+        android:id="@+id/zoologo"
+        android:layout_width="500dp"
+        android:layout_height="100dp"
+        android:src="@drawable/zoologo"
+        android:layout_gravity="center" />
+
+    <TextView
+        android:layout_gravity="center"
+        android:background="#ff7b00"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  𝙑𝙞𝙧𝙩𝙪𝙖𝙡 𝙕𝙤𝙤  "
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:id="@+id/allzoo"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/zoo"
+        android:layout_gravity="center" />
+
+    <TextView
+
+        android:layout_gravity="center"
+        android:background="#87ff005e"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Welcome to the first virtual zoo. The animals we have are divided into the different environments each animal lives in. The different environments are animals from the arctic, ocean, safari. We also have petting zoo animals as well. Enjoy ;) "
+        android:textSize="20dp"
+        android:textColor="#fff"
+        android:layout_margin="20dp"
+        android:padding="1mm"/>
+
+    <TextView
+        android:onClick="openArcticActivity"
+        android:layout_gravity="center"
+        android:background="#58aabc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Arctic Animals  "
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:id="@+id/arctic"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/arctic"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:onClick="openOceanActivity"
+        android:layout_gravity="center"
+        android:background="#0060ba"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Ocean Animals  "
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:id="@+id/ocean"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/ocean"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:background="#daa563"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Safari Animals  "
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:id="@+id/safari"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/safari"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:background="#8ccf73"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="  Petting Animals  "
+        android:textSize="40dp"
+        android:textColor="#fff"
+        android:layout_margin="20dp"/>
+
+    <ImageView
+        android:id="@+id/petting"
+        android:layout_width="500dp"
+        android:layout_height="200dp"
+        android:src="@drawable/pet"
+        android:layout_gravity="center"/>
+
+    <TextView
+        android:layout_gravity="center"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Contact us at
+
+Email: TheVirtualZoo@gmail.com
+
+Phone number: (510)-455-502"
+        android:textSize="20dp"
+        android:textColor="#000000"
+        android:layout_margin="20dp"/>
+
+</LinearLayout>
+
+</ScrollView>
